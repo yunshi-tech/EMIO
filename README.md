@@ -7,7 +7,7 @@
 | ------------ | ---------------------------------- | -------------------- | ------------ | ---------- |
 | **修订版本** | **修订内容**                       | **适用硬件**         | **修改时间** | **修改者** |
 | **V1.0**     | **第一版发行**                     | **EIO2416  EIO4832** | **201909**   | **XX**     |
-| **V2.8**     | **增加断线及重连回调事件功能**      | **EIO2416 EIO4832**  | **201910**   | **XX**     |
+| **V2.8**     | **增加断线及重连回调事件功能**         | **EIO2416 EIO4832**  | **201910**   | **XX**     |
 | **V2.10**    | **增加断电重连回调事件及Utitlity** | **EIO2416  EIO4832** | **201912**   | **XX**     |
 
 
@@ -16,7 +16,7 @@
 
 ## 1.1 功能介绍
 
-![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/01.png)
+![图 1.1 总线式系统架构](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/01.png)
 
 <p align="center">图 1.1 总线式系统架构</p>
 
@@ -24,35 +24,35 @@ EMIO数字IO模块系列采用XILINX FPGA作为主处理器，以工业以太网
 
 EMIO数字IO模块系列**不需要额外的主站系统/主站卡，只需要用超6类双屏蔽网线与主机串联，上位机用API函数库编译应用程序就可以实时控制数字IO模块**。
 
- ![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/112.png)
+ ![图1.1.2 EIO2416功能介绍](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/112.png)
 
 <p align="center">图1.1.2 EIO2416功能介绍</p>
 
- ![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/113.png)
+ ![图1.1.3 EIO4832功能介绍](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/113.png)
 
-<center>图1.1.3 EIO4832功能介绍</center> 
+<p align="center">图1.1.3 EIO4832功能介绍</p>
 
 ## 1.2 安装尺寸
 
 ![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/121.png)
 
-<center>图1.2.1 EIO2416安装尺寸</center> 
+<p align="center">图1.2.1 EIO2416安装尺寸</p>
 
  ![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/122.png)
 
-<center>图1.2.2 EIO4832安装尺寸</center> 
+<p align="center">图1.2.2 EIO4832安装尺寸</p>
 
 ## 1.3 端子定义
 
- 
-
+<p align="center">
 | PIN  | J0   |          |
-| ---- | ---- | -------- |
+|:----:|:----:|:--------:|
 | 1    | FG   | 外壳接地 |
 | 2    | EGND | 0V       |
 | 3    | E24V | +24V     |
+</p>
 
-<center>表1.1 电源定义</center> 
+<p align="center">表1.1 电源定义</p>
 
 | PIN  | J1   |        | J2   |        | J3   |        |
 | ---- | ---- | ------ | ---- | ------ | ---- | ------ |
