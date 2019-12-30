@@ -7,7 +7,7 @@
 | ------------ | ---------------------------------- | -------------------- | ------------ | ---------- |
 | **修订版本** | **修订内容**                       | **适用硬件**         | **修改时间** | **修改者** |
 | **V1.0**     | **第一版发行**                     | **EIO2416  EIO4832** | **201909**   | **XX**     |
-| **V2.8**     | 增加断线及重连回调事件功能         | **EIO2416 EIO4832**  | **201910**   | **XX**     |
+| **V2.8**     | **增加断线及重连回调事件功能**      | **EIO2416 EIO4832**  | **201910**   | **XX**     |
 | **V2.10**    | **增加断电重连回调事件及Utitlity** | **EIO2416  EIO4832** | **201912**   | **XX**     |
 
 
@@ -18,7 +18,7 @@
 
 ![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/01.png)
 
-<center>图 1.1 总线式系统架构</center> 
+<p align="center">图 1.1 总线式系统架构</p>
 
 EMIO数字IO模块系列采用XILINX FPGA作为主处理器，以工业以太网络总线为载体，采用专用封闭协议保证通讯的稳定性及响应性，总线通讯周期1ms，自动实现丢包重发机制，支持断线重连中断事件，支持多模块串联，支持与国内外运动控制卡IO卡同时使用，支持与EtherCAT主站同时使用。软件上提供SDK API函数库开发包，驱动及丰富例程，支持WinXP~Win10 32/64位系统上使用VC++ C# VB LabVIEW QT Python等高级语言的开发。
 
@@ -26,7 +26,7 @@ EMIO数字IO模块系列**不需要额外的主站系统/主站卡，只需要�
 
  ![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/112.png)
 
-<center>图1.1.2 EIO2416功能介绍</center> 
+<p align="center">图1.1.2 EIO2416功能介绍</p>
 
  ![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/113.png)
 
