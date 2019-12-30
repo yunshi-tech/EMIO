@@ -50,15 +50,13 @@ EMIO数字IO模块系列**不需要额外的主站系统/主站卡，只需要�
 
 ## 1.3 端子定义
 
-<p align="center">
-  
+<div align="center">
 | PIN  | J0   |          |
 |------|------| :------: |
 | 1    | FG   | 外壳接地 |
 | 2    | EGND | 0V       |
 | 3    | E24V | +24V     |
-
-</p>
+</div>
 
 <p align="center">表1.1 电源定义</p>
 
@@ -138,7 +136,7 @@ EIO2416模块有 16 路通用数字输出信号(NPN)，EIO4832模块有 32 路�
 
 <p align="center">图2.1.2 驱动安装向导</p>
 
-![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/213.png)
+<div align="center"><img src="https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/213.png"/></div>
 
 <p align="center">图2.1.3 选择安装目录</p>
 
