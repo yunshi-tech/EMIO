@@ -9,20 +9,20 @@
 | **V2.10**    | **增加断电重连回调事件及Utitlity** | **EIO2416  EIO4832** | **201912**   | **XX**     |
 
 
-<center>
+<div align="center">
   <table>    
     <tr><th colspan="5">修订历史</th></tr>
     <tr><td>修订版本</td><td>修订内容</td><td>适用硬件</td><td>修改时间</td><td>修改者</td></tr>
     <tr><td>V1.0</td><td>第一版发行</td><td>适用硬件</td><td>修改时间</td><td>修改者</td></tr>
     </table> 
-</center>
+</div>
   
 
 # 第1章 EMIO数字IO模块硬件
 
 ## 1.1 功能介绍
 
-![图 1.1 总线式系统架构](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/01.png)
+<div align="center"><img src="https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/01.png"/></div>
 
 <p align="center">图 1.1 总线式系统架构</p>
 
@@ -30,21 +30,21 @@ EMIO数字IO模块系列采用XILINX FPGA作为主处理器，以工业以太网
 
 EMIO数字IO模块系列**不需要额外的主站系统/主站卡，只需要用超6类双屏蔽网线与主机串联，上位机用API函数库编译应用程序就可以实时控制数字IO模块**。
 
- ![图1.1.2 EIO2416功能介绍](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/112.png)
+<div align="center"><img src="https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/12.png"/></div>
 
 <p align="center">图1.1.2 EIO2416功能介绍</p>
 
- ![图1.1.3 EIO4832功能介绍](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/113.png)
+<div align="center"><img src="https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/113.png"/></div>
 
 <p align="center">图1.1.3 EIO4832功能介绍</p>
 
 ## 1.2 安装尺寸
 
-![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/121.png)
+<div align="center"><img src="https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/121.png"/></div>
 
 <p align="center">图1.2.1 EIO2416安装尺寸</p>
 
-![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/122.png)
+<div align="center"><img src="https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/122.png"/></div>
 
 <p align="center">图1.2.2 EIO4832安装尺寸</p>
 
@@ -108,7 +108,7 @@ EMIO数字IO模块系列**不需要额外的主站系统/主站卡，只需要�
 
 EIO2416模块有 24 路通用数字输入信号(NPN)，EIO4832模块有 48 路通用数字输入信号(NPN)。所有输入接口均加有光电隔离元件，可以有效隔离外部电路的干扰，以提高系统的可靠性。通用数字输入信号接口原理图如图1.6所示。
 
- ![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/141.png)
+<div align="center"><img src="https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/141.png"/></div>
 
 <p align="center">图1.4.1 通用数字输入电路</p>
 
@@ -116,7 +116,7 @@ EIO2416模块有 24 路通用数字输入信号(NPN)，EIO4832模块有 48 路�
 
 EIO2416模块有 16 路通用数字输出信号(NPN)，EIO4832模块有 32 路通用数字输入信号(NPN)。由 MOS 管驱动，其最大工作电流为**1A**，可用于控制继电器、电磁阀、信号灯或其它设备，如图1.7所示。
 
- ![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/151.png)
+<div align="center"><img src="https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/151.png"/></div>
 
 <p align="center">图1.5.1 通用数字输出电路</p>
 
@@ -130,7 +130,7 @@ EIO2416模块有 16 路通用数字输出信号(NPN)，EIO4832模块有 32 路�
 
 双击安装包进行驱动，API及例程的安装。
 
-<div align="center"><img width="100" height="131" src="https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/211.png"/></div>
+<div align="center"><img src="https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/211.png"/></div>
 
 <p align="center">图2.1.1 驱动安装向导</p>
 
@@ -142,19 +142,19 @@ EIO2416模块有 16 路通用数字输出信号(NPN)，EIO4832模块有 32 路�
 
 <p align="center">图2.1.3 选择安装目录</p>
 
-![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/214.png)
+<div align="center"><img src="https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/214.png"/></div>
 
 <p align="center">图2.1.4 安装完成</p>
 
 安装完成后双击桌面上的YSEMIO Utility快捷方式图标运行调试程序。
 
-![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/215.png)
+<div align="center"><img src="https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/215.png"/></div>
 
 <p align="center">图2.1.5 调试工具YSEMIO Utility</p>
 
 双击DO图标可以反向操作DO等，当有断线及重连时下面输出列表会有提示。
 
-![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/216.png)
+<div align="center"><img src="https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/216.png"/></div>
 
 <p align="center">图2.1.6 YSEMIO Utility操作</p>
 
@@ -164,13 +164,13 @@ EIO2416模块有 16 路通用数字输出信号(NPN)，EIO4832模块有 32 路�
 
 1. 启动Visual Studio 2010，文件-新建-项目-Visual C++，在MFC应用向导下一步中选择 基于对话框 类型并完成。
 
-![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/2221.png)
+<div align="center"><img src="https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/2211.png"/></div>
 
 <p align="center">图2.2.1.1 新建对话框应用程序</p>
 
 2. 设置 项目-属性，弹出项目属性页对话框(Alt+F7)。
 
-![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/2222.png)
+<div align="center"><img src="https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/2212.png"/></div>
 
 <p align="center">图2.2.1.2 打开项目属性</p>
 
@@ -182,7 +182,8 @@ EIO2416模块有 16 路通用数字输出信号(NPN)，EIO4832模块有 32 路�
 
 C:\Program Files\EMIO\Lib\x64 (Win64程序)
 
-![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/2223.png)
+<div align="center"><img src="https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/22130.png"/></div>
+<div align="center"><img src="https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/22131.png"/></div>
 
 <p align="center">图2.2.1.3 设置包含目录和库目录</p>
 
@@ -196,7 +197,7 @@ C:\Program Files\EMIO\Lib\x64 (Win64程序)
 
 到此，就可以调用EMIO API函数库中的任何函数，开始编写应用程序了。
 
-![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/2214.png)
+<div align="center"><img src="https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/2214.png"/></div>
 
 <p align="center">图2.2.1.4 加入包括头文件和库文件</p>
 
@@ -210,7 +211,7 @@ C:\Program Files\EMIO\Lib\x64 (Win64程序)
 
 (4). 关闭总线从站模块。
 
-![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/2215.png)
+<div align="center"><img src="https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/2215.png"/></div>
 
 <p align="center">图2.2.1.5 VC++函数库使用流程</p>
 
@@ -222,7 +223,7 @@ C:\Program Files\EMIO\Lib\x64 (Win64程序)
 
 (3). 网络断线/重连后自动执行断线/重连事件处理函数一次。
 
-![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/2216.png)
+<div align="center"><img src="https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/2216.png"/></div>
 
 <p align="center">图2.2.1.6 VC++断线/重连事件使用流程</p>
 
@@ -236,19 +237,19 @@ EMIO API函数库详细具体使用方法，请参考例程。
 
 1. 启动Visual Studio 2010，文件-新建-项目-Visual C#，选择Windows窗体应用程序。
 
-![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/2221.png)
+<div align="center"><img src="https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/2221.png"/></div>
 
 <p align="center">图2.2.2.1 新建Windows窗体应用程序</p>
 
 2. 项目-添加现有项，选择C:\Program Files\EMIO\Include\YSEMIO.cs文件。
 
-![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/2222.png)
+<div align="center"><img src="https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/2222.png"/></div>
 
 <p align="center">图2.2.2.2 添加现有项YSEMIO.cs</p>
 
 3. 在Form1.cs中添加使用命名空间代码using YSEMIO;
 
-![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/2223.png)
+<div align="center"><img src="https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/2223.png"/></div>
 
 <p align="center">图2.2.2.3 使用命名空间YSEMIO</p>
 
@@ -266,7 +267,7 @@ EMIO API函数库详细具体使用方法，请参考例程。
 
 (4). 关闭总线从站模块。
 
-![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/2224.png)
+<div align="center"><img src="https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/2224.png"/></div>
 
 <p align="center">图2.2.2.4 VC#函数库使用流程</p>
 
@@ -280,7 +281,7 @@ EMIO API函数库详细具体使用方法，请参考例程。
 
 (4). 网络断线/重连后自动执行断线/重连事件处理函数一次。
 
-![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/2225.png)
+<div align="center"><img src="https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/2225.png"/></div>
 
 <p align="center">图2.2.2.5 VC# 断线/重连事件使用流程</p>
 
@@ -288,13 +289,13 @@ EMIO API函数库详细具体使用方法，请参考例程。
 
 1. 启动Visual Studio 2010，文件-新建-项目-Visual Basic，选择Windows窗体应用程序。
 
-![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/2231.png)
+<div align="center"><img src="https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/2231.png"/></div>
 
 <p align="center">图2.2.3.1 新建Windows窗体应用程序</p>
 
 2. 项目-添加现有项，选择C:\Program Files\EMIO\Include\YSEMIO.vb文件。
 
-![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/2232.png)
+<div align="center"><img src="https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/2232.png"/></div>
 
 <p align="center">图2.2.3.2 添加现有项YSEMIO.vb</p>
 
@@ -312,7 +313,7 @@ EMIO API函数库详细具体使用方法，请参考例程。
 
 (4). 网络断线/重连后自动执行断线/重连事件处理函数一次。
 
-![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/2233.png)
+<div align="center"><img src="https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/2233.png"/></div>
 
 <p align="center">图2.2.3.3 VB.NET 断线/重连事件使用流程</p>
 
@@ -841,7 +842,7 @@ Q: 总线式系统架构是否可以同时用两个或多个网口连接并同�
 
 A: **不可以**！为保证通讯的实时及稳定性，同一时间段内只能打开一个网口串联的所有从站模块。
 
-![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/411.png)
+<div align="center"><img src="https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/411.png"/></div>
 
 <p align="center">图4.1.1 总线式系统架构</p>
 
@@ -891,7 +892,7 @@ Q: 电脑主站网口是否要设置固定IP地址？
 
 A: **需要**！设置与模块连接的电脑主站网口为固定IP地址，由于Windows的网络接口特性，固定IP地址不仅能使通讯更加稳定，而且能加快网络断线与重连的速度。
 
- ![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/412.png)
+<div align="center"><img src="https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/412.png"/></div>
 
 <p align="center">图4.1.2 设置网络连接固定IP地址</p>
 
