@@ -10,7 +10,7 @@
 | **V2.10**    | **增加断电重连回调事件及Utitlity** | **EIO2416  EIO4832** | **201912**   | **XX**     |
 
 
-<div align="center">
+<div align="center"><img src=""/>
   <table>    
     <tr><th colspan="5">修订历史</th></tr>
     <tr><td>修订版本</td><td>修订内容</td><td>适用硬件</td><td>修改时间</td><td>修改者</td></tr>
