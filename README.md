@@ -8,13 +8,13 @@
 | **V2.8**     | **增加断线及重连回调事件功能**         | **EIO2416 EIO4832**  | **201910**   | **XX**     |
 | **V2.10**    | **增加断电重连回调事件及Utitlity** | **EIO2416  EIO4832** | **201912**   | **XX**     |
 
-<div style="align: center">
-<table>    
-  <tr><th colspan="5">修订历史</th></tr>
-  <tr><td>修订版本</td><td>修订内容</td><td>适用硬件</td><td>修改时间</td><td>修改者</td></tr>
-  <tr><td>V1.0</td><td>第一版发行</td><td>适用硬件</td><td>修改时间</td><td>修改者</td></tr>
-</table> 
-</div>
+<center>
+  <table>    
+    <tr><th colspan="5">修订历史</th></tr>
+    <tr><td>修订版本</td><td>修订内容</td><td>适用硬件</td><td>修改时间</td><td>修改者</td></tr>
+    <tr><td>V1.0</td><td>第一版发行</td><td>适用硬件</td><td>修改时间</td><td>修改者</td></tr>
+    </table> 
+</center>
   
 
 # 第1章 EMIO数字IO模块硬件
@@ -128,8 +128,10 @@ EIO2416模块有 16 路通用数字输出信号(NPN)，EIO4832模块有 32 路�
 下载地址: https://raw.githubusercontent.com/yunshi-tech/EMIO/master/YSEMIO_Setup.exe
 
 双击安装包进行驱动，API及例程的安装。
-
-<img align="center">![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/211.png)</img>
+<center class="half">
+    <img src="https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/211.png"/>
+</center>
+![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/211.png)
 
 <p align="center">图2.1.1 驱动安装向导</p>
 
