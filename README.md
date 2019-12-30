@@ -16,7 +16,7 @@
 
 ## 1.1 功能介绍
 
-![](Images\01.png)
+![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/01.png)
 
 <center>图 1.1 总线式系统架构</center> 
 
