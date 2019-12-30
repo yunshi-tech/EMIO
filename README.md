@@ -129,10 +129,7 @@ EIO2416模块有 16 路通用数字输出信号(NPN)，EIO4832模块有 32 路�
 
 双击安装包进行驱动，API及例程的安装。
 
-<div style="text-align:center" markdown="1">
-![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/211.png)
-</div>
-<p align="center">![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/211.png)</p>
+<img align="center">![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/211.png)</img>
 
 <p align="center">图2.1.1 驱动安装向导</p>
 
