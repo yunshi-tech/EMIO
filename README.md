@@ -11,8 +11,8 @@
 <div style="align: center">
 <table>    
   <tr><th colspan="5">修订历史</th></tr>
-  <tr><td>xxx</td><td>修订版本</td><td>修订内容</td><td>适用硬件</td><td>修改时间</td><td>修改者</td></tr>
-  <tr><td>xxx</td><td>V1.0</td><td>第一版发行</td><td>适用硬件</td><td>修改时间</td><td>修改者</td></tr>
+  <tr><td>修订版本</td><td>修订内容</td><td>适用硬件</td><td>修改时间</td><td>修改者</td></tr>
+  <tr><td>V1.0</td><td>第一版发行</td><td>适用硬件</td><td>修改时间</td><td>修改者</td></tr>
 </table> 
 </div>
   
@@ -130,9 +130,9 @@ EIO2416模块有 16 路通用数字输出信号(NPN)，EIO4832模块有 32 路�
 双击安装包进行驱动，API及例程的安装。
 
 <div style="text-align:center" markdown="1">
-![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/211.png "Caption")
+![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/211.png)
 </div>
-
+<p align="center">![](https://raw.githubusercontent.com/yunshi-tech/EMIO/master/Images/211.png)</p>
 
 <p align="center">图2.1.1 驱动安装向导</p>
 
